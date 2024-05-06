@@ -1,5 +1,10 @@
 #include <stdint.h>
 
+#define FAILURE -0x1
+
+/*INPUT_INFORMATION:*/
+/*UTF-8 LF C { POSIX : LINUX } */
+
 struct PAGE_INFORMATION {
 	int pages;
 	uint32_t page_size;
