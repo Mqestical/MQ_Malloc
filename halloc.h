@@ -1,6 +1,6 @@
 #include <stdint.h>
 
-#define FAILURE -0x1
+#define PROCESS_FAILURE -0x1
 
 /*INPUT_INFORMATION:*/
 /*UTF-8 LF C { POSIX : LINUX } */
