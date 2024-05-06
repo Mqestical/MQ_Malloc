@@ -7,5 +7,5 @@ struct PAGE_INFORMATION {
 };
 
 
-int MEM_init(uint64_t sizeofRegion); __THROW;
+int MEM_init(uint64_t size);
 extern void* halloc(uint64_t size) __THROW __wur;
