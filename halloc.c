@@ -17,7 +17,7 @@ void* next_available_address = NULL; // Global variable to track next available 
     
    if (initialized != 0) {
       fprintf(stderr, "fatal error: mem_init can only be called once! ");
-      return -1;
+      exit(FAILURE);
    }
 
     //get the pagesize
@@ -42,11 +42,11 @@ void* halloc(uint64_t size) {
 
 
    if (!initialized) 
-      { fprintf(stderr, "fatal error: mem_init must be called first!"); exit(-1); }
+      { fprintf(stderr, "fatal error: mem_init must be called first!"); exit(FAILURE); }
 
    if (size <= 0) {
       fprintf(stderr, "error: size must be a positive number that is equal to ONE or more. (unsigned_integer_64bits_halloc_fatal_error)");
-      exit(EXIT_FAILURE);    
+      exit(FAILURE);    
    }
 
    // Check if there is enough space available
