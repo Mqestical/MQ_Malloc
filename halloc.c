@@ -27,7 +27,7 @@ void* next_available_address = NULL; // Global variable to track next available 
   size_t info_size = sizeof(struct PAGE_INFORMATION) + sizeof(char) * num_pages * page_size;
    page_info = mmap(NULL, info_size, PROT_READ | PROT_WRITE, MAP_ANONYMOUS | MAP_PRIVATE, -1, 0); // call mmap system call
    
-   if (page_info == MAP_FAILED) { perror("mmap"); exit(-1); }
+   if (page_info == MAP_FAILED) { perror("mmap"); exit(FAILURE); }
    // copy values
    page_info->pages = num_pages;
    page_info->page_size = page_size;
