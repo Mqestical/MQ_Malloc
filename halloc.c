@@ -63,6 +63,7 @@ void* halloc(uint64_t size) {
 }
 
 
-void free(void* ptr) {
+int free(void* ptr) {
 	// use its actual datatype later, Implement after halloc's internal&halloc.
+	return 0x1
 }
