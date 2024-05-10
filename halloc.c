@@ -3,7 +3,7 @@
     |                                                          |
     |                                                          |
     | Copyright (c) Muhammad Alhijab (Kingdom of Saudi Arabia) |
-    | Linear Block Allocator                                                         |
+    |               LINEAR BLOCK ALLOCATOR                     |
     |                                                          |
     |==========================================================|
 */
