@@ -3,7 +3,8 @@
     |                                                          |
     |                                                          |
     | Copyright (c) Muhammad Alhijab (Kingdom of Saudi Arabia) |
-    |               LINEAR BLOCK ALLOCATOR                     |
+    | Owner of Specialized System Management Software(SSMS)    |
+    |                LINEAR BLOCK ALLOCATOR                    |
     |                                                          |
     |==========================================================|
 */
